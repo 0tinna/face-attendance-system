@@ -1,0 +1,72 @@
+# Qt specific
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.moc
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+Makefile
+Makefile.*
+*build-*
+*.qm
+*.prl
+
+# Qt Creator auto-generated files
+*~
+*.autosave
+*.user
+*.user.*
+
+# Debug and Release folders
+debug/
+release/
+
+# Compiled binaries
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Database files (optional, uncomment if you don't want to include database files)
+# *.db
+# *.sqlite
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Visual Studio Code specific
+.vscode/
+.vs/
+
+# OpenCV specific
+*.jpg
+*.png
+*.bmp
+!docs/images/*.jpg
+!docs/images/*.png
+
+# Others
+*.log
